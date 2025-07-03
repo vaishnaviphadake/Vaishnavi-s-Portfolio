@@ -20,7 +20,7 @@ export const Projects = () => {
 						<span>&bull;</span>
 						<span>Movix</span>
 					</div>
-					<h3 className="font-serif text-2xl mt-2 md:mt-4 md:text-2xl">
+					<h3 className="font-serif text-2xl ml-5 mt-2 md:mt-4 md:text-2xl">
 						Movie Discovery Web App
 					</h3>
 					<hr className="border-t-2 border-white/10 mt-4 md:mt-5" />
@@ -46,11 +46,11 @@ export const Projects = () => {
 
 				{/* Food Express Project */}
 				<Card className="mt-10 px-8 py-10 md:px-12 lg:px-16">
-					<div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-3xl text-transparent bg-clip-text">
+					<div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex font-bold uppercase tracking-widest text-3xl text-transparent bg-clip-text">
 						<span>&bull;</span>
 						<span>Food Express</span>
 					</div>
-					<h3 className="font-serif text-2xl mt-2 md:mt-4 md:text-2xl">
+					<h3 className="font-serif text-2xl ml-3 mt-2 md:mt-4 md:text-2xl">
 						Food Delivery Web App
 					</h3>
 					<hr className="border-t-2 border-white/10 mt-4 md:mt-5" />
