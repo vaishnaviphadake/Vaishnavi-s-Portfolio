@@ -17,7 +17,6 @@ export const Projects = () => {
 
 				<Card className="mt-10 px-8 py-10 md:px-12 lg:px-16">
 					<div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-3xl text-transparent bg-clip-text">
-						<span>Project</span>
 						<span>&bull;</span>
 						<span>Movix</span>
 					</div>
@@ -48,7 +47,6 @@ export const Projects = () => {
 				{/* Food Express Project */}
 				<Card className="mt-10 px-8 py-10 md:px-12 lg:px-16">
 					<div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-3xl text-transparent bg-clip-text">
-						<span>Project</span>
 						<span>&bull;</span>
 						<span>Food Express</span>
 					</div>
