@@ -8,7 +8,7 @@ import { TapeSection } from "@/sections/Tape";
 import { AboutSection } from "@/sections/About";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
-import ClientLayout from "@/components/clientLayout";
+import ClientLayout from "@/components/ClientLayout";
 import { ExperienceSection } from "@/sections/ExperienceSection";
 
 export default function Home() {
