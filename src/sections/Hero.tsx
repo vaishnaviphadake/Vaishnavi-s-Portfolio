@@ -5,6 +5,7 @@ import grainImage from "../assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";
+import { motion } from "framer-motion";
 
 export const HeroSection = () => {
 	return (
@@ -43,7 +44,7 @@ export const HeroSection = () => {
 				</HeroOrbit>
 
 				<HeroOrbit
-					size={460}
+					size={530}
 					rotation={-20}
 					shouldOrbit
 					orbitDuration="32s"
@@ -117,8 +118,18 @@ export const HeroSection = () => {
 						height={120}
 						className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] object-contain mx-auto"
 					/>
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ duration: 1 }}
+						className="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold 
+	bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 
+	bg-[length:300%_300%] bg-clip-text text-transparent animate-gradientText text-center"
+					>
+						Vaishnavi Phadake
+					</motion.div>
 
-					<div className="bg-gray-950 border border-gray-800 px-4 py-2 mt-4 inline-flex flex-wrap items-center justify-center gap-3 rounded-lg max-w-xs sm:max-w-none sm:gap-4">
+					<div className="bg-gray-950 border border-gray-800 px-4 py-2 mt-3 inline-flex flex-wrap items-center justify-center gap-3 rounded-lg max-w-xs sm:max-w-none sm:gap-4">
 						<div className="bg-green-500 size-2.5 rounded-full relative">
 							<div className="bg-green-500 absolute inset-0 animate-ping-large rounded-full"></div>
 						</div>
@@ -129,7 +140,7 @@ export const HeroSection = () => {
 				</div>
 
 				<div className="max-w-2xl mx-auto mt-8 px-2 text-center">
-					<h1 className="font-serif text-2xl sm:text-3xl md:text-4xl leading-tight tracking-wide">
+					<h1 className="font-serif text-white/80 text-2xl sm:text-lg md:text-1xl leading-tight tracking-wide">
 						Creating Seamless & Scalable Web Experiences
 					</h1>
 					<p className="mt-4 text-sm sm:text-base md:text-lg text-white/60">
