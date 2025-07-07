@@ -42,7 +42,6 @@ export const HeroSection = () => {
 				>
 					<SparkleIcon className="size-4 text-emerald-300/40" />
 				</HeroOrbit>
-
 				<HeroOrbit
 					size={530}
 					rotation={-20}
@@ -53,7 +52,6 @@ export const HeroSection = () => {
 				>
 					<SparkleIcon className="size-6 text-emerald-300/50" />
 				</HeroOrbit>
-
 				<HeroOrbit
 					size={650}
 					rotation={45}
@@ -62,7 +60,6 @@ export const HeroSection = () => {
 				>
 					<div className="size-2 rounded-full bg-emerald-400/30" />
 				</HeroOrbit>
-
 				<HeroOrbit
 					size={740}
 					rotation={-90}
@@ -73,7 +70,6 @@ export const HeroSection = () => {
 				>
 					<StarIcon className="size-5 text-emerald-400/60" />
 				</HeroOrbit>
-
 				<HeroOrbit
 					size={860}
 					rotation={120}
@@ -82,7 +78,6 @@ export const HeroSection = () => {
 				>
 					<StarIcon className="size-8 text-emerald-300/20" />
 				</HeroOrbit>
-
 				<HeroOrbit
 					size={1000}
 					rotation={-135}
@@ -93,7 +88,6 @@ export const HeroSection = () => {
 				>
 					<SparkleIcon className="size-6 text-emerald-400/25" />
 				</HeroOrbit>
-
 				<HeroOrbit
 					size={1150}
 					rotation={75}
@@ -106,30 +100,25 @@ export const HeroSection = () => {
 
 			<div className="container relative z-10 px-4 sm:px-6">
 				<div className="flex flex-col items-center text-center">
-					{/* <Image
-						src={memojiImage}
-						className="w-20 sm:w-24 sm:h-24"
-						alt="Person peeking behind laptop"
-					/> */}
 					<Image
 						src={memojiImage}
 						alt="Female developer peeking behind laptop"
 						width={120}
 						height={120}
-						className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] object-contain mx-auto"
+						className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] object-contain mx-auto mt-4"
 					/>
 					<motion.div
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1 }}
 						className="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold 
-	bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 
-	bg-[length:300%_300%] bg-clip-text text-transparent animate-gradientText text-center"
+					bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 
+					bg-[length:300%_300%] bg-clip-text text-transparent animate-gradientText text-center mt-2"
 					>
 						Vaishnavi Phadake
 					</motion.div>
 
-					<div className="bg-gray-950 border border-gray-800 px-4 py-2 mt-3 inline-flex flex-wrap items-center justify-center gap-3 rounded-lg max-w-xs sm:max-w-none sm:gap-4">
+					<div className="bg-gray-950 border border-gray-800 px-4 py-2 mt-4 inline-flex flex-wrap items-center justify-center gap-3 rounded-lg max-w-xs sm:max-w-none sm:gap-4">
 						<div className="bg-green-500 size-2.5 rounded-full relative">
 							<div className="bg-green-500 absolute inset-0 animate-ping-large rounded-full"></div>
 						</div>
@@ -150,7 +139,7 @@ export const HeroSection = () => {
 					</p>
 				</div>
 
-				<div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14">
+				<div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14 px-4">
 					<a
 						href="#projects"
 						className="inline-flex items-center justify-center gap-2 border border-white/15 px-6 h-12 rounded-3xl font-semibold text-sm sm:w-auto w-full text-center"
