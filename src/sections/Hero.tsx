@@ -11,7 +11,7 @@ export const HeroSection = () => {
 	return (
 		<div
 			id="home"
-			className="relative z-0 overflow-x-clip pt-0 pb-32 sm:pt-24 sm:pb-40 lg:min-h-screen lg:flex lg:items-center lg:justify-center"
+			className="relative z-0 overflow-x-clip pt-24 pb-32 sm:pt-32 sm:pb-40 lg:min-h-screen lg:flex lg:items-center lg:justify-center"
 		>
 			<div
 				className="absolute inset-0 pointer-events-none"
