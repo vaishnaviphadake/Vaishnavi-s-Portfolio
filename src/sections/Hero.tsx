@@ -105,7 +105,7 @@ export const HeroSection = () => {
 						alt="Female developer peeking behind laptop"
 						width={120}
 						height={120}
-						className="w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] md:w-[110px] md:h-[110px] object-contain mx-auto mt-10 sm:mt-0"
+						className="w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] md:w-[110px] md:h-[110px] object-contain mx-auto mt-10 sm:mt-6"
 					/>
 
 					<motion.div
@@ -114,17 +114,23 @@ export const HeroSection = () => {
 						transition={{ duration: 1 }}
 						className="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold 
 					bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 
-					bg-[length:300%_300%] bg-clip-text text-transparent animate-gradientText text-center mt-2"
+					bg-[length:300%_300%] bg-clip-text text-transparent animate-gradientText text-center my-2"
 					>
 						Vaishnavi Phadake
 					</motion.div>
 
-					<div className="bg-gray-950 border border-gray-800 px-4 py-2 mt-4 inline-flex flex-wrap items-center justify-center gap-3 rounded-lg max-w-xs sm:max-w-none sm:gap-4">
-						<div className="bg-green-500 size-2.5 rounded-full relative">
-							<div className="bg-green-500 absolute inset-0 animate-ping-large rounded-full"></div>
-						</div>
-						<div className="text-sm font-medium text-white text-center">
-							Actively seeking full-time opportunities as a Frontend Developer
+					<div className="bg-gray-950 border border-gray-800 px-4 py-3 mt-4 rounded-lg max-w-xs sm:max-w-none">
+						<div className="flex items-start gap-3">
+							<div className="relative top-1">
+								<div className="bg-green-500 size-2.5 rounded-full relative">
+									<div className="bg-green-500 absolute inset-0 animate-ping-large rounded-full"></div>
+								</div>
+							</div>
+
+							{/* Text */}
+							<div className="text-sm font-medium text-white text-left sm:text-center leading-snug">
+								Actively seeking full-time opportunities as a Frontend Developer
+							</div>
 						</div>
 					</div>
 				</div>
@@ -140,17 +146,17 @@ export const HeroSection = () => {
 					</p>
 				</div>
 
-				<div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14 px-4">
+				<div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4 mt-10 px-4 w-full max-w-md mx-auto">
 					<a
 						href="#projects"
-						className="inline-flex items-center justify-center gap-2 border border-white/15 px-6 h-12 rounded-3xl font-semibold text-sm sm:w-auto w-full text-center"
+						className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-white/15 px-6 h-12 rounded-3xl font-semibold text-sm text-center"
 					>
 						<span>Explore My Work</span>
 						<ArrowDown className="size-4" />
 					</a>
 					<a
 						href="#contact"
-						className="inline-flex items-center justify-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-3xl font-semibold text-sm sm:w-auto w-full text-center"
+						className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-3xl font-semibold text-sm text-center"
 					>
 						<span>👋</span>
 						<span>Let&apos;s Connect</span>
