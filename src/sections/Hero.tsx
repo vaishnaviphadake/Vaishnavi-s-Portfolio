@@ -11,7 +11,7 @@ export const HeroSection = () => {
 	return (
 		<div
 			id="home"
-			className="relative z-0 overflow-x-clip pt-24 pb-32 sm:pt-32 sm:pb-40 lg:min-h-screen lg:flex lg:items-center lg:justify-center"
+			className="relative z-0 overflow-x-clip pt-16 pb-32 sm:pt-24 sm:pb-40 lg:min-h-screen lg:flex lg:items-center lg:justify-center"
 		>
 			<div
 				className="absolute inset-0 pointer-events-none"
@@ -105,8 +105,9 @@ export const HeroSection = () => {
 						alt="Female developer peeking behind laptop"
 						width={120}
 						height={120}
-						className="w-[90px] h-[90px] sm:w-[110px] sm:h-[110px] md:w-[120px] md:h-[120px] object-contain mx-auto mt-4"
+						className="w-[90px] h-[90px] sm:w-[100px] sm:h-[100px] md:w-[110px] md:h-[110px] object-contain mx-auto mt-10 sm:mt-0"
 					/>
+
 					<motion.div
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
