@@ -71,7 +71,7 @@ export const Footer = () => {
 					animate={{ opacity: 1, scale: 1 }}
 					exit={{ opacity: 0, scale: 0 }}
 					onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-					className="fixed bottom-6 right-6 p-3 rounded-full bg-emerald-400 hover:bg-emerald-500 text-white shadow-lg transition transform hover:scale-110 z-50"
+					className="fixed bottom-5 right-3 p-3 sm:p-2 sm:bottom-6 rounded-full bg-emerald-400 hover:bg-emerald-500 text-white shadow-lg transition transform hover:scale-110 z-50"
 					aria-label="Back to top"
 				>
 					<FaArrowUp className="text-xl" />
