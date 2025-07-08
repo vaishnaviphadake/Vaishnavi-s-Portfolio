@@ -16,16 +16,16 @@ export const ExperienceSection = () => {
 				/>
 
 				<Card className="mt-10 px-6 py-8 sm:px-8 md:px-12 lg:px-16">
-					<div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
-						<span className="text-sm font-bold uppercase tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">
+					<div className="flex flex-col md:flex-row gap-1 md:items-center md:justify-between">
+						<span className="lg:text-4xl sm:text-xl md:text-2xl font-bold uppercase tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">
 							Earnst & Young (EY)
 						</span>
-						<span className="text-sm mt-1 sm:mt-0 text-white/70 sm:text-right">
+						<span className="text-sm sm:text-sm text-white/70 md:text-right">
 							Jan 2023 – Nov 2023
 						</span>
 					</div>
 
-					<h3 className="font-serif text-xl sm:text-2xl md:text-3xl mt-3 sm:mt-4">
+					<h3 className="font-serif lg:text-2xl sm:text-lg md:text-2xl mt-3 sm:mt-3">
 						Associate Software Engineer
 					</h3>
 

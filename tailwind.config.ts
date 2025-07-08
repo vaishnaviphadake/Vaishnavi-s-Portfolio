@@ -65,10 +65,6 @@ const config: Config = {
 					"0%": { transform: "translateX(-100%)" },
 					"100%": { transform: "translateX(100%)" },
 				},
-				typing: {
-					from: { width: "0" },
-					to: { width: "100%" },
-				},
 				blink: {
 					"0%, 100%": { borderColor: "transparent" },
 					"50%": { borderColor: "#fff" },
@@ -94,13 +90,11 @@ const config: Config = {
 				shimmer: "shimmer 2s ease-in-out infinite",
 				textGlow: "textGlow 2.5s ease-in-out infinite",
 				pulseBorder: "pulseBorder 3s ease-in-out infinite",
-				typingAnimation:
-					"typing 2.5s steps(30, end) 1 forwards, blink 0.75s step-end infinite",
 				gradientText: "gradientText 6s ease infinite",
 				"ping-large": "ping-large 1s ease-in-out infinite",
-				"move-left": "move-left 50s linear infinite",
-				"move-right": "move-right 50s linear infinite",
-				marquee: "marquee 20s linear infinite",
+				"move-left": "move-left 40s linear infinite",
+				"move-right": "move-right 40s linear infinite",
+				marquee: "marquee 8s linear infinite",
 			},
 			maskImage: {
 				"fade-bottom":

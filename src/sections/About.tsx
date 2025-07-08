@@ -11,6 +11,8 @@ import { motion } from "framer-motion";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { useRef } from "react";
+import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
+import ResumeComp from "./ResumeComp";
 
 const Toolbox = [
 	{ title: "HTML5", iconType: <HTMLIcon className="w-6 h-6 text-[#E34F26]" /> },
@@ -101,8 +103,9 @@ export const AboutSection = () => {
 					title="A Glimpse Into My World"
 					description="Learn more about who I am, what I do and what inspires me"
 				/>
+				<ResumeComp />
 
-				<div className="m-4 mt-20 flex flex-col gap-8">
+				<div className="m-4 mt-10 flex flex-col gap-8">
 					{/* Toolbox */}
 					<div className="grid grid-cols-1">
 						<Card className="min-h-[320px] p-4">
@@ -130,8 +133,6 @@ export const AboutSection = () => {
 						</Card>
 					</div>
 
-					{/* Hobbies */}
-					{/* Hobbies */}
 					<div className="grid grid-cols-1">
 						<Card className="min-h-[320px] p-4 flex flex-col">
 							<CardHeader

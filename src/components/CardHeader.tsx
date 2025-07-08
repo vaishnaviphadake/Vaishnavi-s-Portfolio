@@ -15,13 +15,17 @@ export const CardHeader = ({
 			<div className={twMerge("flex flex-col", className)}>
 				<div className="flex justify-center">
 					<div className="inline-flex items-center gap-2">
-						<StarIcon className="size-9 text-emerald-300" />
-						<h3 className="font-serif text-3xl">{title}</h3>
+						<StarIcon className="size-9 text-emerald-300 " />
+						<h3 className="font-serif text-3xl sm:text-xl sm:text-center">
+							{title}
+						</h3>
 					</div>
 				</div>
 				<div className="flex justify-center">
 					<div className="inline-flex items-center gap-2"></div>
-					<p className="text-md text-white/60 my-2">{description}</p>
+					<p className="text-md text-white/60 my-2 sm:text-center">
+						{description}
+					</p>
 				</div>
 			</div>
 		</div>
